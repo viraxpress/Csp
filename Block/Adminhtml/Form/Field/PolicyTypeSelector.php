@@ -23,7 +23,7 @@
 
 namespace ViraXpress\CSP\Block\Adminhtml\Form\Field;
 
-use Ewall\CSP\Model\Source\PolicyType;
+use ViraXpress\CSP\Model\Source\PolicyType;
 use Magento\Framework\View\Element\Context;
 use Magento\Framework\View\Element\Html\Select;
 
