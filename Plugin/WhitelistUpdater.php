@@ -33,8 +33,8 @@ use Magento\Framework\App\Config\ScopeConfigInterface;
 
 class WhitelistUpdater
 {
-    const CONFIG_ENABLE = 'viraxpress_config/cspwhitelisting/enabled';
-    const CONFIG_POLICIES = 'viraxpress_config/cspwhitelisting/policycustomizations';
+    public const CONFIG_ENABLE = 'viraxpress_config/cspwhitelisting/enabled';
+    public const CONFIG_POLICIES = 'viraxpress_config/cspwhitelisting/policycustomizations';
 
     /** @var ConfigData */
     private $configDataReader;

@@ -29,18 +29,18 @@ use Magento\Eav\Model\Entity\Attribute\Source\AbstractSource;
 
 class PolicyType extends AbstractSource
 {
-    const POLICY_CONNECT_SRC = 'connect-src';
-    const POLICY_FONT_SRC = 'font-src';
-    const POLICY_FORM_ACTION_SRC = 'form-action';
-    const POLICY_FRAME_ANCESTORS_SRC = 'frame-ancestors';
-    const POLICY_FRAME_SRC = 'frame-src';
-    const POLICY_IMG_SRC = 'img-src';
-    const POLICY_MANIFEST_SRC = 'manifest-src';
-    const POLICY_DEFAULT = 'default-src';
-    const POLICY_MEDIA_SRC = 'media-src';
-    const POLICY_OBJECT_SRC = 'object-src';
-    const POLICY_SCRIPT_SRC = 'script-src';
-    const POLICY_STYLE_SRC = 'style-src';
+    public const POLICY_CONNECT_SRC = 'connect-src';
+    public const POLICY_FONT_SRC = 'font-src';
+    public const POLICY_FORM_ACTION_SRC = 'form-action';
+    public const POLICY_FRAME_ANCESTORS_SRC = 'frame-ancestors';
+    public const POLICY_FRAME_SRC = 'frame-src';
+    public const POLICY_IMG_SRC = 'img-src';
+    public const POLICY_MANIFEST_SRC = 'manifest-src';
+    public const POLICY_DEFAULT = 'default-src';
+    public const POLICY_MEDIA_SRC = 'media-src';
+    public const POLICY_OBJECT_SRC = 'object-src';
+    public const POLICY_SCRIPT_SRC = 'script-src';
+    public const POLICY_STYLE_SRC = 'style-src';
 
     /**
      * Retrieve all options for policy types
